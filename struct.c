@@ -54,7 +54,7 @@ int main ()
     for (int i = 0; i<5; i++){
         printf("b[%d] : %d\n",i,b.array[i]);
     }
-
+//the pointers in array a are now pointing the address in b
     a = b;
 
     printf("\n");
